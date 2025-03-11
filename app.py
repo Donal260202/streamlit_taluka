@@ -7,8 +7,8 @@ st.set_page_config(page_title="PMFBY ANALYSIS",layout="wide")
 df=pd.read_excel("PMFBY Taluka 18-23.xlsx")
 #st.dataframe(df)
 
-st.title("Year Wise Analysis of PMFBY Data 2018-2023")
 
+st.markdown("<h1 style='text-align: center; color: red;'>Year Wise Analysis of PMFBY Data 2018-2023</h1>", unsafe_allow_html=True)
 
 st.sidebar.header("Please Select the District and Taluka:")
 district=st.sidebar.multiselect("Select the district:",options=df["District Name"].unique())
