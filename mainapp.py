@@ -4,7 +4,7 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="PMFBY ANALYSIS",layout="wide")
-df=pd.read_excel("C:\\Users\\dell\\Desktop\\PMFBY Taluka 18-23.xlsx")
+df=pd.read_excel("PMFBY Taluka 18-23.xlsx")
 
 def header_page():
     st.markdown("<h1 style='text-align: center; color: black;'>Analysis of PMFBY Data 2018-2023</h1>", unsafe_allow_html=True)
